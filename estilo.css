@@ -1,0 +1,56 @@
+:root {
+  --header-height: 4.5rem;
+
+  /*HSL color mode*/
+  --tittle-color: hsla(360, 100%, 0%, 1);
+  --button-color: #ffffff;
+}
+
+body {
+  background: #000000;
+  color: #D2D4C8;
+  text-align: center;
+  background-image: url('./firebackground.png');
+
+}
+
+a#button {
+  background-color: var(--button-color);
+  color: blue;
+  height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 0.25rem;
+}
+
+.gifBitcoin {
+  background-color: var(--button-color);
+  height: 10rem;
+  display: inline-flex;
+  align-items: center;
+  float: right;
+}
+
+.videoDinheiros {
+  background-color: var(--button-color);
+  height: 10rem;
+  display: inline-flex;
+  align-items: center;
+  float: left;
+}
+
+.gifProgram {
+  background-color: var(--button-color);
+  height: 10rem;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: black;
+}
+
+footer {
+  background-color: var(--tittle-color);
+}
